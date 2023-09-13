@@ -1,6 +1,8 @@
+
 import React from "react";
 import NavBar from "./components/NavBar";
-import './App.css'; 
+import ItemListContainer from "./components/ItemListContainer"; // Importa el nuevo componente
+import "./App.css";
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       <div className="container">
         <h1>Bienvenido a Styles</h1>
       </div>
+      <ItemListContainer />
     </div>
   );
 }
