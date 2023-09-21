@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import CartContext from "../context/CartContext"; 
 
-function CartWidget() {
+const CartWidget = () => {
+  const { cart } = useContext(CartContext); 
+
+  const cartItemCount = cart.reduce((total, item) => total + item.quantity, 0);
+
   return (
-    <div>
-      <i className="fas fa-shopping-cart"></i>
+    <div className="cart-widget">
+      <FontAwesomeIcon icon={faShoppingCart} />
+      {cartItemCount > 0 && <span className="badge">{cartItemCount}</span>}
     </div>
   );
-}
+};
 
 export default CartWidget;
+
