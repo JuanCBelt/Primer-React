@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/JuanCBelt/Primer-React/static/css/main.e6c13ad2.css",
+    "main.js": "/JuanCBelt/Primer-React/static/js/main.67304120.js",
+    "static/js/496.cc64b207.chunk.js": "/JuanCBelt/Primer-React/static/js/496.cc64b207.chunk.js",
+    "index.html": "/JuanCBelt/Primer-React/index.html",
+    "main.e6c13ad2.css.map": "/JuanCBelt/Primer-React/static/css/main.e6c13ad2.css.map",
+    "main.67304120.js.map": "/JuanCBelt/Primer-React/static/js/main.67304120.js.map",
+    "496.cc64b207.chunk.js.map": "/JuanCBelt/Primer-React/static/js/496.cc64b207.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.67304120.js"
+  ]
+}
