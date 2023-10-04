@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom"; 
 import { Navbar, Nav, Container } from "react-bootstrap";
 import CartWidget from "./CartWidget";
+import Catalog from './data/Catalog';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 
 function NavBar() {
   return (

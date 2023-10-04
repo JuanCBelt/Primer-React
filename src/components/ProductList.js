@@ -1,12 +1,12 @@
 import React from "react";
-import catalog from "../data/catalog";
+import Catalog from './data/Catalog';
 
 const ProductList = () => {
   return (
     <div>
       <h2>Productos de Ropa</h2>
       <ul>
-        {catalog.map((product) => (
+        {Catalog.map((product) => (
           <li key={product.id}>
             <img src={product.imageUrl} alt={product.name} />
             <h3>{product.name}</h3>
